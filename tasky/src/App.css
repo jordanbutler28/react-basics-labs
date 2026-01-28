@@ -45,3 +45,7 @@ div {
   color:mediumslateblue;
   font-weight: bold;
 }
+
+.priority {
+  font-style: italic;
+}
