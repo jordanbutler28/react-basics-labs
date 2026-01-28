@@ -6,8 +6,8 @@ body {
 
 h1 {
   text-align: center;
-  background-color: grey;
-  color: white;
+  background-color: #212842;
+  color: #F0E7D5;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -27,8 +27,9 @@ div {
   vertical-align: top;
   font-family: system-ui;
   background: #5bb4c4;
-  color: white;
+  color: #FFF8F0;
   text-align: center;
+  border-radius: .3em;
   width: 180px;
   height: 240px;
   margin: 10px;
@@ -42,8 +43,7 @@ div {
 }
 
 .description {
-  color:mediumslateblue;
-  font-weight: bold;
+  color: #ffffff;
 }
 
 .priority {
@@ -75,7 +75,7 @@ button {
 }
 
 /* form styling */ 
-input[type=text], input[type=date] {
+input[type=text], input[type=date], select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -105,3 +105,5 @@ form {
   width: 50%;
   margin: auto;
 }
+
+
